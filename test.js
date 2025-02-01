@@ -1,8 +1,8 @@
-let x = 5;
-let y = 11;
-
-if (x > 5 && y > 12) {
-  console.log("ค่ามากจัง");
+let x = 7;
+if (x > 10) {
+  console.log("x is more than 10");
+} else if (x < 5) {
+  console.log("x is less than 5");
 } else {
-  console.log(x * y + x / y);
+  console.log("x is between 5 and 10");
 }
