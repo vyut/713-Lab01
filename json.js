@@ -5,3 +5,5 @@ const object = {
 };
 
 console.log(object);
+
+console.log(object.name);
