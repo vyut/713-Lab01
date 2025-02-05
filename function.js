@@ -1,5 +1,7 @@
-function greet(name) {
-  return "Hello " + name;
+function sumScores(scores) {
+  return scores.reduce((total, score) => total + score, 0);
 }
 
-console.log(greet("John"));
+const studentScores = [10, 20, 30];
+
+console.log(`ผลรวมคะแนน: ${sumScores(studentScores)}`);
