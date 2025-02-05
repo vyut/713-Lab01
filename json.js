@@ -4,6 +4,9 @@ const object = {
   city: "New York",
 };
 
-console.log(object);
+// console.log(object);
 
-console.log(object.name);
+// console.log(object.name);
+
+const jsonStr = JSON.stringify(object);
+console.log(jsonStr);
