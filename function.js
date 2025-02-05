@@ -1,13 +1,9 @@
-// const greet = (name) => "Hello " + name;
+const multiply = (x, y) => {
+  return x * y;
+};
 
-// console.log(greet("John"));
+console.log(multiply(5, 10));
 
-// const multiply = (x, y) => {
-//   return x * y;
-// };
-
-// console.log(multiply(5, 10));
-
-const getMax = (a, b) => (a > b ? a : b);
-
-console.log(getMax(10, 20));
+module.exports = {
+  multiply,
+};
